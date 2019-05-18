@@ -1,0 +1,120 @@
+/*
+* Megan Leach
+* May 19, 2019
+* Cause Project
+*/
+
+/* The Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body properties here */
+
+body {
+    width: 65%; /*centers the work on the page*/ 
+    margin: auto; /*specifies the margin space*/
+    background-color: aliceblue; /*this is the color of the background for the page*/
+}
+
+header {
+    border-bottom: 3px solid orange;/*specifies what the border of the header will look like*/
+    margin: 10px;
+    padding: 10px;
+}/*formats the header section*/
+
+footer {
+    border-top: 3px solid orange;
+    margin: 10px;
+    padding: 10px;
+    clear: right; /*will clear the footer from any floating on the page*/
+}/*formats the footer of the page*/
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    text-align: center; /*centers the heading on the page*/
+}
+
+h3 {
+    color: darkblue
+}
+
+#dirtywater {
+    height: 200px; 
+    width: 250px; /*height and width specify the size of the image*/
+    float: left; /*will be floated/shifted to the left side of the page*/
+    border: 4px solid lightgray;
+    margin: 8px;
+    padding: 3px; 
+}
+
+#example1 {
+    height: 100px; 
+    width: 150px; 
+    float:right;
+    margin: 10px;
+}
+
+#example2 {
+    height: 100px;
+    width: 100px;
+    float: right; 
+    margin: 10px;
+}
+
+#example3 {
+    height:100px;
+    width: 150px;
+    float: right;
+    margin: 10px;
+}
+
+#example4 {
+    height: 100px;
+    width: 150px;
+    float: right;
+    margin: 10px;
+}
+
+#example5 {
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin: 10px;
+}
+#garbage_patch {
+    height: 250px; 
+    width: 350px; 
+    border: 4px solid lightgray;
+    margin: 8px;
+    padding: 3px;
+}
+
+/*the id selctors will format all of the sections with the specified selector*/
+
+#list {
+    padding-left: 15px;
+} /*will line up the list with the rest of the page*/
+
+figure {float: right;} 
+
+figcaption {
+    text-align: center;
+    color: darkgray;
+}
+
+a:link {
+    color:darkblue;
+} /*changes what the links will look like on the page before they are visited*/
+
+a:hover, a:focus {
+    color: lightblue;
+    font-size: 120%;
+}/*changes with the links will look like when they are being focused on*/
+
+a:visited {
+    color: darkgray;
+}/*changes what the links will look like after they are visited*/
